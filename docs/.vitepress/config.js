@@ -30,9 +30,9 @@ const config = {
       // '/': sidebar,
     },
     algolia: {
-      appId:'OD70WA28ON',
-      apiKey: '2667e16918c692efed2ea1c6788d0a26',
-      indexName: 'viteyadong'
+      appId:'QXCT7SUFIT',
+      apiKey: 'ec7b417a3a970f433cd3edd70fd748c1',
+      indexName: 'cesium'
     },
   },
 
