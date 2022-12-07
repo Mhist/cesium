@@ -4,8 +4,8 @@ import sidebar from './sidebar'
 import baseConfig from 'vitepress-theme-you/config'
 const config = {
   extends: baseConfig,
-  title: '亚东 前端知识体系',
-  description: '前端知识体系',
+  title: 'GIS cesium',
+  description: 'GIS cesium',
   base: '/',
   head: [
     ['link', { rel: 'icon', type: 'image/x-icon', href: '/public/favicon.ico' }],
@@ -13,7 +13,7 @@ const config = {
   ],
   themeConfig: {
     // 展示搜索框
-    repo: 'https://github.com/Mhist/xkt',
+    repo: 'https://github.com/Mhist/cesium',
     logo: '/public/favicon.ico',
     iconClass: 'i-ri-layout-3-line',
     editLinks: true,
@@ -23,17 +23,18 @@ const config = {
       text: '帮助改善此页面'
     },
     lastUpdated: '上次更新',
-      algolia: {
-        appId:'OD70WA28ON',
-        apiKey: '2667e16918c692efed2ea1c6788d0a26',
-        indexName: 'viteyadong'
-      },
+      
     nav: nav,
     // 侧边栏
     sidebar: {
       // '/': sidebar,
     },
 
+  },
+  algolia: {
+    appId:'OD70WA28ON',
+    apiKey: '2667e16918c692efed2ea1c6788d0a26',
+    indexName: 'viteyadong'
   },
   markdown:{
     lineNumbers:false
