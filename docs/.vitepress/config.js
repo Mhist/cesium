@@ -1,11 +1,11 @@
-// const { withBase } = require("vitepress")
+const { withBase } = require("vitepress")
 import nav from './nav'
 import sidebar from './sidebar'
 import baseConfig from 'vitepress-theme-you/config'
 const config = {
   extends: baseConfig,
-  title: '亚东 cesium',
-  description: 'cesium',
+  title: '亚东 前端知识体系',
+  description: '前端知识体系',
   base: '/',
   head: [
     ['link', { rel: 'icon', type: 'image/x-icon', href: '/public/favicon.ico' }],
