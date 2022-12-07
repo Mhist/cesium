@@ -29,13 +29,13 @@ const config = {
     sidebar: {
       // '/': sidebar,
     },
+    algolia: {
+      appId:'OD70WA28ON',
+      apiKey: '2667e16918c692efed2ea1c6788d0a26',
+      indexName: 'viteyadong'
+    },
+  },
 
-  },
-  algolia: {
-    appId:'OD70WA28ON',
-    apiKey: '2667e16918c692efed2ea1c6788d0a26',
-    indexName: 'viteyadong'
-  },
   markdown:{
     lineNumbers:false
   }
