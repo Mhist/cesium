@@ -17,6 +17,6 @@
     "docs:serve": "vitepress serve docs"
   },
   "dependencies": {
-    "vite": "^3.2.5"
+    "vitepress-theme-you": "0.0.33"
   }
 }
