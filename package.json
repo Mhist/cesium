@@ -1,15 +1,18 @@
 {
-  "name": "xkt",
-  "version": "1.0.0",
+  "name": "cesium",
+  "version": "0.0.1",
   "description": "2022.04.01-restart",
   "main": "main.js",
-  "repository": "https://github.com/Mhist/xkt",
+  "repository": "https://github.com/Mhist/cesium",
   "author": "xkt",
   "license": "MIT",
   "private": "true",
   "devDependencies": {
+    "flexsearch": "^0.7.31",
+    "markdown-it": "^13.0.1",
     "unocss": "^0.45.14",
-    "vitepress": "^0.22.3"
+    "vitepress": "^0.22.3",
+    "vitepress-plugin-search": "^1.0.4-alpha.16"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
