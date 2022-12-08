@@ -1,19 +1,19 @@
 const nav = [
   {
-    text: "学习路线",
+    text: "实例演示",
     link: 'start.html',
     items: [
       {
-        text: "一个「学渣」从零 Web 前端自学之路",
-        link: 'https://juejin.cn/post/6844903778164949000',
+        text: "官方3D示例",
+        link: 'https://sandcastle.cesium.com/index.html?',
       },
       {
-        text: "前端知识图谱+B 站资源整合 V1.0 版本",
-        link: 'https://gitee.com/jishupang/web_atlas',
+        text: "官方API文档",
+        link: 'https://cesium.com/learn/cesiumjs/ref-doc/',
       },
       {
-        text: "Web 开发者学习路线图",
-        link: 'https://www.runoob.com/w3cnote/web-developer-learn-path.html',
+        text: "IIS部署本地文档",
+        link: 'http://localhost:8088/',
       },
     ]
   },
@@ -83,10 +83,6 @@ const nav = [
     text: "开发效率",
     link: '/',
     items: [
-      {
-        text: "兆日",
-        link: 'http:yadong.vercel.app/zrkj/shortcut.html',
-      },
       {
         text: "can i use",
         link: 'https://caniuse.com/',
