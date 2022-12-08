@@ -1,4 +1,3 @@
-const { withBase } = require("vitepress")
 import nav from './nav'
 import sidebar from './sidebar'
 import baseConfig from 'vitepress-theme-you/config'
