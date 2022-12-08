@@ -34,6 +34,9 @@ const sidebar = [
   {
     text: "布局组件",
   },
+  {
+    text: "布局组件",
+  },
 
 ]
 
